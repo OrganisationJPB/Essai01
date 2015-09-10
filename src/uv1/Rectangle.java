@@ -16,7 +16,18 @@ public class Rectangle {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("");// TODO code application logic here
+        // Déclaration des variables
+        int longueur;   // longueur du rectangle
+        int largeur;    // largueur du rectangle
+        int surface;    // surface du rectangle
+
+        // Corps du programme
+        longueur = 10;
+        System.out.println("La longueur est de : " + longueur);
+        largeur = 5;
+        System.out.println("La largeur est de : " + largeur);
+        surface = longueur * largeur;
+        System.out.println("La surface du rectangle est : " + surface);
     }
     
 }
