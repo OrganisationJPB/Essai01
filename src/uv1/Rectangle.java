@@ -6,6 +6,8 @@
 
 package uv1;
 
+import clavier.Lire;
+
 /**
  *
  * @author btssio
@@ -22,10 +24,11 @@ public class Rectangle {
         int surface;    // surface du rectangle
 
         // Corps du programme
-        longueur = 10;
-        System.out.println("La longueur est de : " + longueur);
-        largeur = 5;
-        System.out.println("La largeur est de : " + largeur);
+         // Corps du programme
+        System.out.println("Donnez la longueur : ");
+        longueur = Lire.i();
+        System.out.println("Donnez la largeur : ");
+        largeur = Lire.i();
         surface = longueur * largeur;
         System.out.println("La surface du rectangle est : " + surface);
     }
