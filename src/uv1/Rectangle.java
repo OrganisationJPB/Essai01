@@ -22,7 +22,7 @@ public class Rectangle {
         int surface;    // surface du rectangle
 
         // Corps du programme
-        longueur = 10;
+        longueur = 10
         System.out.println("La longueur est de : " + longueur);
         largeur = 5;
         System.out.println("La largeur est de : " + largeur);
